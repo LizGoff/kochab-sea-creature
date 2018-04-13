@@ -22,18 +22,32 @@ function clickHandler() {
     clickCount++;
     console.log(clickCount);
     displayCount();
+    addNewCreature();
     }
 
 function displayCount() {
-
     $('#totalCount').text(clickCount);
-    console.log(clickCount);
+    //console.log(clickCount);
+    }
 
+    function addNewCreature(){
+        $('#addNewCreature').append('<tr>' + '<td>' + $('#newCreaturesName').val() + '</td>' + '<td>' + $('#newCreaturesSize').val() + ' ft</td>' + '<td>' + $('#newCreaturesType').val() + '</td>' + '<td>' + $('#newCreaturesSpeed').val() + ' mph</td>');
+        console.log('addNewCreature');
+    }
 }
 
 
 
-  //  let clickCount = $('toatlCount').val
+//'newCreaturesName'
+
+//function addNewCreature() {
+ //   $('#nameInput').val();
+ //   console.log("value in for name");
+//}
+
+ 
+
+  //  let clickCount = $('totalCount').val
  //   console.log(displayCount).text(clickCount);
  //   
 
@@ -47,4 +61,3 @@ function displayCount() {
   // div
   // div
 
-}
