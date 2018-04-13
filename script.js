@@ -36,6 +36,13 @@ function displayCount() {
     }
 }
 
+//investigate how to clear the fieds in addNewCreatures
+//investigate how to not enter blank info into list that is created below in the table
+//look back at kochab-jquery-review
+
+
+
+
 
 
 //'newCreaturesName'
